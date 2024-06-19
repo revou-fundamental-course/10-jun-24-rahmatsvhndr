@@ -1,12 +1,47 @@
+*{
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightgray;
+    font-family: Helvetica;
+    font-size: small;
+    text-align: justify ;
+}
+.container{
+    position: relative;
+    max-width: 300px;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 .simbol-suhu {
-    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
     font-style: italic;
     font-weight: 505
-    
+
 }
 
 .angka {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 505
 
+}
+
+textarea {
+    resize: none;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    height: 40px;
 }

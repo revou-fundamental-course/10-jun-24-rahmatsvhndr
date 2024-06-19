@@ -6,62 +6,74 @@
     <title>Document</title>
 </head>
 <header>
-    <h1>Website Konversi Suhu</h1>
     <link rel="stylesheet" href="css/style.css">
 
 </header>
 <body>
-<main>
-    <p>
-        Masukan suhu derajat Celcius (&deg;C) ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F).
-    </p>
+    <div class="container">
+        <div>
+            <h1 style="font-size: medium;">Website Konversi Suhu</h1>
+        </div>
+
+        <div>
+            Masukan suhu derajat Celcius (&deg;C) ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F).
+        </div>
     
-    <section>
-        <p>Celcius (&deg;C) :</p>  
-        <textarea> </textarea>
+        <div>
+            <div style="padding-top: 10px; padding-bottom: 2px;">
+                Celcius (&deg;C) :
+            </div> 
+            <textarea> </textarea>
 
-    <section>
-        <button>Konversi</button>
-        <button>Reset</button>
-        <button>Reverse</button>
-    </section>
+            <div style="padding-top: 2px;">   
+                <button>Konversi</button>
+                <button>Reset</button>
+                <button>Reverse</button>
+            </div>
 
-    </section>
+        </div>
 
-    <section>
-        <p>Fahrenheit (&deg;F) :</p>  
-        <textarea> </textarea>
-    </section>
+        <div>
+            <div style="padding-top: 10px; padding-bottom: 2px;">
+                Fahrenheit (&deg;F) :
+            </div>
+            <textarea> </textarea>
 
-    <section>
-        <p>Cara kalkulasi :</p>  
-        <textarea> </textarea>
-    </section>
+        <div>
+            
+            <div style="padding-top: 10px; padding-bottom: 2px;">
+                Cara kalkulasi :
+            </div>
+            <textarea> </textarea>
+        </div>
 
-    <section>
-        <h3>Cara Konversi Dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h3>
-        <hr/>
-
-        <p>
-            Suhu <span class="simbol-suhu">S</span> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <span class="simbol-suhu">S</span> dalam derajat
-            Celcius (&deg;C) kali <span class="angka">9/5</span> ditambah <span class="angka">32</span>.
-
-        </p>
-        <p>
-             <span class="simbol-suhu">S</span><sub>(&deg;F)</sub>=(<span class="simbol-suhu">S</span><sub>(&deg;C)</sub> &times; <span class="angka">9/5</span>) &plus; <span class="angka">32</span>   
-        </p>
-
-        <p>
-            atau
-        </p>
         
-        <p>
-            <span class="simbol-suhu">S</span><sub>(&deg;F)</sub>=(<span class="simbol-suhu">S</span><sub>(&deg;C)</sub> &times; <span class="angka">1.8</span>) &plus; <span class="angka">32</span>
-        </p>
+        <div>
+            <h1 style="font-size: 14px;">Cara Konversi Dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h1>
+        
+            <hr/>
 
-    </section>
-</main>
+                 <p>
+                    Suhu <span class="simbol-suhu">S</span> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <span class="simbol-suhu">S</span> dalam derajat
+                    Celcius (&deg;C) kali <span class="angka">9/5</span> ditambah <span class="angka">32</span>.
+                 </p>
 
-<script src="js/script.js"></script>
+            <p>
+                <span class="simbol-suhu">S</span><sub>(&deg;F)</sub>=(<span class="simbol-suhu">S</span><sub>(&deg;C)</sub> &times; <span class="angka">9/5</span>) &plus; <span class="angka">32</span>   
+            </p>
+
+            <p>
+              atau
+            </p>
+        
+            <p>
+                <span class="simbol-suhu">S</span><sub>(&deg;F)</sub>=(<span class="simbol-suhu">S</span><sub>(&deg;C)</sub> &times; <span class="angka">1.8</span>) &plus; <span class="angka">32</span>
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
